@@ -31,6 +31,8 @@ int main (){
         cin.getline (personas[i].nombre,40);
         cout<< "cedula: "; 
         cin>> personas[i].cedula;
+        cout<< "ingrese la edad: "; 
+        cin>> personas[i].edad;
         cout<< "Peso:  ";
         cin>> personas[i].peso;
         cout<<  "Altura; ";
